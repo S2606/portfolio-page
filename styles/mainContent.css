@@ -13,11 +13,6 @@
     font-style: italic;
 }
 
-.blog-author > a {
-    color: #4285f4;
-    text-decoration: underline;
-}
-
 .avatar {
     display: inline-block;
     width: 50px;
@@ -30,9 +25,4 @@
 
 .blog-first {
     font-style: italic;
-}
-
-.blog-citation-box {
-    border: 1px solid black;
-    padding: 0.8 rem;
 }

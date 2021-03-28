@@ -27,14 +27,6 @@
 	}
 }
 
-.blog-nav {
-	grid-area: blogNav;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	font-size: 0.8 rem;
-}
-
 .main-sub-container{
 	grid-area: mainSubContent;
 }
