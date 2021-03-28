@@ -1,0 +1,11 @@
+.about-card{
+    margin-top: 30px;
+    width: 275px;
+    background-color: #efefef;
+    font-weight: 400;
+    padding: 0.8 rem;
+}
+
+.about-text{
+    margin-top: 10px;
+}

@@ -1,0 +1,50 @@
+@import './header.css';
+@import './footer.css';
+@import './mainContent.css';
+@import './extraContent.css';
+@import './common.css';
+
+.blog-container {
+	display: grid;
+	height: auto;
+	width: 100%;
+	grid-area: mainContent;
+	grid-template-columns: 60% 40%;
+	grid-template-rows: 25px auto;
+	grid-template-areas: 
+	"blogNav blogNav"
+	"mainSubContent extraContent";
+}
+
+@media (max-width: 767px){
+	.blog-container {
+		grid-template-columns: 100%;
+		grid-template-rows: 25px auto auto;
+		grid-template-areas: 
+		"blogNav"
+		"mainSubContent"
+		"extraContent";
+	}
+}
+
+.blog-nav {
+	grid-area: blogNav;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	font-size: 0.8 rem;
+}
+
+.main-sub-container{
+	grid-area: mainSubContent;
+}
+
+
+.extra-container{
+	grid-area: extraContent;
+	font-weight: bold;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}

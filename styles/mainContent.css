@@ -1,0 +1,38 @@
+.blog-subheading {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.blog-author {
+    display: inline;
+    font-size: 1rem;
+    color: rgb(108, 108, 108);
+    text-decoration: none;
+    font-style: italic;
+}
+
+.blog-author > a {
+    color: #4285f4;
+    text-decoration: underline;
+}
+
+.avatar {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url('../images/avatar.png');
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 10%;
+}
+
+.blog-first {
+    font-style: italic;
+}
+
+.blog-citation-box {
+    border: 1px solid black;
+    padding: 0.8 rem;
+}
