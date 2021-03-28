@@ -1,0 +1,39 @@
+.footer {
+    grid-area: footer;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer-line {
+    width: 100%;
+    text-align: center;
+}
+
+#linkedin, #twitter{
+    display: block;
+    margin: 10px;
+    text-align: center;
+    color: #2f3640;
+    font-size: 15px;
+}
+
+#linkedin:hover, #twitter:hover {
+    background-color: #f5f6fa;  
+    font-size: 20px;
+}
+
+@media (max-width: 1000px) {
+    #linkedin, #twitter {
+        display: inline-block;
+    }
+}
+#linkedin:hover {
+    color: #3C5A99;
+}
+#twitter:hover {
+    color: #00aace;
+}
