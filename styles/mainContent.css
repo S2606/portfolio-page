@@ -13,11 +13,27 @@
     font-style: italic;
 }
 
+.blog-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blog-img {
+    width: 600px;
+    height: 300px;
+    align-self: center;
+}
+
+.blog-img-caption {
+    text-align: center;
+}
+
 .avatar {
     display: inline-block;
     width: 50px;
     height: 50px;
-    background-image: url('../images/avatar.png');
+    background-image: url('../images/personal-informal.jpeg');
     background-size: cover;
     border-radius: 50%;
     margin-left: 10%;
@@ -25,4 +41,11 @@
 
 .blog-first {
     font-style: italic;
+}
+
+@media (max-width: 767px){
+	.blog-img {
+        width: 250px;
+        height: 125px;
+    }
 }

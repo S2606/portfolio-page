@@ -13,7 +13,7 @@
     text-align: center;
 }
 
-#linkedin, #twitter{
+#linkedin, #twitter #facebook{
     display: block;
     margin: 10px;
     text-align: center;
@@ -21,17 +21,17 @@
     font-size: 15px;
 }
 
-#linkedin:hover, #twitter:hover {
+#linkedin:hover, #twitter:hover, #facebook:hover{
     background-color: #f5f6fa;  
     font-size: 20px;
 }
 
 @media (max-width: 1000px) {
-    #linkedin, #twitter {
+    #linkedin, #twitter, #facebook {
         display: inline-block;
     }
 }
-#linkedin:hover {
+#linkedin:hover, #facebook:hover{
     color: #3C5A99;
 }
 #twitter:hover {

@@ -11,3 +11,9 @@
         "mainContent"
         "footer";
 }
+
+@media (max-width: 1000px) {
+    .container {
+        width: 100%;
+    }
+}
